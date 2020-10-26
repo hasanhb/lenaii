@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+ tab1: ARRAY_OF INTEGER ;
+   tab2: ARRAY_OF INTEGER ;
+ sum: INTEGER ;
+ e: INTEGER ;
+ x : ARRAY_OF INTEGER ;
+BEGIN
+   sum = 0 ;
+x[]=tab1[i]+tab2[j]
+FOR i FROM 0 TO x.lenght STEP 1  DO
+    e=0
+    FOR j FROM 0 TO x.lenght STEP 1  DO
+        IF (x[i]=x[j] && i!=j) THEN
+            e ++ ;
+        END_IF
+    END_FOR
+
+END_FOR
+     END
